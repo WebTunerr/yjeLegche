@@ -1,0 +1,36 @@
+* {
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.menu {
+    width: 250px;
+    height: 100px;
+    /* background-color: red; */
+    text-align: center;
+    padding: 25px 30px 0 0;
+}
+
+.text1 li {
+    list-style: none;
+    line-height: 25px;
+    font-size: large;
+}
+
+.text1 li:nth-child(1) {
+    color:yellow;
+    font-weight: bold;
+}
